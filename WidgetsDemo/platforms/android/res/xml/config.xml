@@ -89,14 +89,14 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <mfp:android>
-        <mfp:sdkChecksum>0</mfp:sdkChecksum>
+        <mfp:sdkChecksum>3308029348</mfp:sdkChecksum>
         <mfp:appChecksum>0</mfp:appChecksum>
         <mfp:security>
             <mfp:testWebResourcesChecksum enabled="false" ignoreFileExtensions="png, jpg, jpeg, gif, mp4, mp3" />
         </mfp:security>
     </mfp:android>
     <mfp:ios>
-        <mfp:sdkChecksum>0</mfp:sdkChecksum>
+        <mfp:sdkChecksum>3490054449</mfp:sdkChecksum>
         <mfp:appChecksum>0</mfp:appChecksum>
         <mfp:security>
             <mfp:testWebResourcesChecksum enabled="false" ignoreFileExtensions="png, jpg, jpeg, gif, mp4, mp3" />
@@ -123,7 +123,7 @@
         </mfp:windows10>
         <mfp:appChecksum>0</mfp:appChecksum>
     </mfp:windows>
-    <mfp:platformVersion />
+    <mfp:platformVersion>8.0.0.00-20180405-080909</mfp:platformVersion>
     <mfp:clientCustomInit enabled="false" />
     <mfp:server runtime="mfp" url="https://widgetsdemo30e-server.eu-gb.mybluemix.net:443" />
     <mfp:directUpdateAuthenticityPublicKey />

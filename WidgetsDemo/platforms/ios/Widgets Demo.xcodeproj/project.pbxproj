@@ -28,9 +28,9 @@
 		0C1FA78A5DA845E38457EECC /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 919B1E97D09B4CF698F2FC31 /* libc++.tbd */; };
 		F23D6F68203F40B8AE3F9A30 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8333A7A32E9043E1ABD73B23 /* Security.framework */; };
 		2253514925234ACD97F06B1B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107A6831C8294CC2A3B15E72 /* SystemConfiguration.framework */; };
-		07F008ED79F34C2E9D16B22C /* IBMMobileFirstPlatformFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE75D950991F401D91495D82 /* IBMMobileFirstPlatformFoundation.framework */; };
-		46A1D07DE3EB4E11AC6C89EB /* IBMMobileFirstPlatformFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE75D950991F401D91495D82 /* IBMMobileFirstPlatformFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		FF1091F6FBED44B792BDCD3F /* IBMMobileFirstPlatformFoundationHybrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5564F3C696874FC8BCB1DB2A /* IBMMobileFirstPlatformFoundationHybrid.framework */; };
+		8396AE57EBBE46FFB86FEDBE /* IBMMobileFirstPlatformFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45821F3C59CA4F0CAE024A82 /* IBMMobileFirstPlatformFoundation.framework */; };
+		5E8CAE67B83A4FC78B6ECEB2 /* IBMMobileFirstPlatformFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45821F3C59CA4F0CAE024A82 /* IBMMobileFirstPlatformFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9542627E834D49EC8EEE2CF9 /* IBMMobileFirstPlatformFoundationHybrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F7D6A8766EF4CAE98D655FE /* IBMMobileFirstPlatformFoundationHybrid.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,8 +86,8 @@
 		919B1E97D09B4CF698F2FC31 /* libc++.tbd */ = {isa = PBXFileReference; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
 		8333A7A32E9043E1ABD73B23 /* Security.framework */ = {isa = PBXFileReference; name = "Security.framework"; path = "System/Library/Frameworks/Security.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 		107A6831C8294CC2A3B15E72 /* SystemConfiguration.framework */ = {isa = PBXFileReference; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		AE75D950991F401D91495D82 /* IBMMobileFirstPlatformFoundation.framework */ = {isa = PBXFileReference; name = "IBMMobileFirstPlatformFoundation.framework"; path = "Widgets Demo/Plugins/cordova-plugin-mfp/IBMMobileFirstPlatformFoundation.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		5564F3C696874FC8BCB1DB2A /* IBMMobileFirstPlatformFoundationHybrid.framework */ = {isa = PBXFileReference; name = "IBMMobileFirstPlatformFoundationHybrid.framework"; path = "Widgets Demo/Plugins/cordova-plugin-mfp/IBMMobileFirstPlatformFoundationHybrid.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		45821F3C59CA4F0CAE024A82 /* IBMMobileFirstPlatformFoundation.framework */ = {isa = PBXFileReference; name = "IBMMobileFirstPlatformFoundation.framework"; path = "Widgets Demo/Plugins/cordova-plugin-mfp/IBMMobileFirstPlatformFoundation.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		0F7D6A8766EF4CAE98D655FE /* IBMMobileFirstPlatformFoundationHybrid.framework */ = {isa = PBXFileReference; name = "IBMMobileFirstPlatformFoundationHybrid.framework"; path = "Widgets Demo/Plugins/cordova-plugin-mfp/IBMMobileFirstPlatformFoundationHybrid.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +102,8 @@
 				0C1FA78A5DA845E38457EECC /* libc++.tbd in Frameworks */,
 				F23D6F68203F40B8AE3F9A30 /* Security.framework in Frameworks */,
 				2253514925234ACD97F06B1B /* SystemConfiguration.framework in Frameworks */,
-				07F008ED79F34C2E9D16B22C /* IBMMobileFirstPlatformFoundation.framework in Frameworks */,
-				FF1091F6FBED44B792BDCD3F /* IBMMobileFirstPlatformFoundationHybrid.framework in Frameworks */,
+				8396AE57EBBE46FFB86FEDBE /* IBMMobileFirstPlatformFoundation.framework in Frameworks */,
+				9542627E834D49EC8EEE2CF9 /* IBMMobileFirstPlatformFoundationHybrid.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,8 +183,8 @@
 				919B1E97D09B4CF698F2FC31 /* libc++.tbd */,
 				8333A7A32E9043E1ABD73B23 /* Security.framework */,
 				107A6831C8294CC2A3B15E72 /* SystemConfiguration.framework */,
-				AE75D950991F401D91495D82 /* IBMMobileFirstPlatformFoundation.framework */,
-				5564F3C696874FC8BCB1DB2A /* IBMMobileFirstPlatformFoundationHybrid.framework */,
+				45821F3C59CA4F0CAE024A82 /* IBMMobileFirstPlatformFoundation.framework */,
+				0F7D6A8766EF4CAE98D655FE /* IBMMobileFirstPlatformFoundationHybrid.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -482,7 +482,7 @@
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46A1D07DE3EB4E11AC6C89EB /* IBMMobileFirstPlatformFoundation.framework in Embed Frameworks */,
+				5E8CAE67B83A4FC78B6ECEB2 /* IBMMobileFirstPlatformFoundation.framework in Embed Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			name = "Embed Frameworks";
